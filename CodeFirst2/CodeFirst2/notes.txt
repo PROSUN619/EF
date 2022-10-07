@@ -1,0 +1,6 @@
+﻿Install-Package EntityFramework
+//Code first Migration
+1. enable-migrations -EnableAutomaticMigration:$true
+2. add-migration InitialCreate
+3. update-database
+https://stackoverflow.com/questions/16035333/how-to-delete-and-recreate-from-scratch-an-existing-ef-code-first-database

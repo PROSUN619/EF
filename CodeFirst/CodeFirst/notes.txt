@@ -1,0 +1,4 @@
+﻿//Code first Migration
+1. enable-migrations | Enable-Migrations -EnableAutomaticMigrations -Force
+2. add-migration InitialCreate
+3. update-database
